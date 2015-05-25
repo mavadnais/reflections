@@ -1,0 +1,4 @@
+git remote : list remotes
+git remote add origin remoteUrl : add remote
+git remote -v : list remotes verbose
+git push origin master
