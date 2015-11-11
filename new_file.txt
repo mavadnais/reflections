@@ -1,0 +1,28 @@
+git log --stat
+git diff commitid1 commitid2
+git clone url
+git checkout commitid
+git init
+git status
+
+git add file : add to staging area
+git reset : remove from staging area
+git commit
+git checkout master
+git diff : diff working directory with staging area
+git diff --staged : diff staging area with last commit
+git reset --hard : reset working directory and staging area
+git branch : list branches
+git branch branch_name : create branch
+git checkout branch_name
+git log --graph --oneline master coins
+git checkout -b new_branch_name : git branch new_branch_name; git checkout new_branch_name
+git merge master coins
+git show commitid : diff commit with its parent
+git branch -d branch_name : delete branch branch_name
+git merge --abort restore files to their state before started merge
+
+git remote : list remotes
+git remote add origin remoteUrl : add remote
+git remote -v : list remotes verbose
+git push origin master
